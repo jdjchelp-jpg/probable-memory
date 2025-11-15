@@ -1,0 +1,38 @@
+name: wonderlapse
+description: "Get into the festive spirit with \"Christmas Countdown,\" a magical mobile app that brings the joy of the holidays to life with enchanting animations, customizable themes, and a delightful countdown to the most wonderful time of the year!"
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  home_widget: 0.8.1
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  shared_preferences: ^2.0.0
+  audioplayers: ^6.0.0
+  flutter_local_notifications: ^19.0.0
+  confetti: 0.8.0
+  intl: 0.20.2
+  share_plus: ^12.0.0
+  flutter_tts: ^8.11.0
+  uuid: ^4.0.0
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icons/dreamflow_icon.jpg
+  remove_alpha_ios: true
